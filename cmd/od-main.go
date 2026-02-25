@@ -27,7 +27,7 @@ import (
 
 	humanize "github.com/dustin/go-humanize"
 	"github.com/minio/cli"
-	"github.com/minio/mc/pkg/probe"
+	"github.com/stanford-rc/minio-mc/pkg/probe"
 )
 
 // make a bucket.

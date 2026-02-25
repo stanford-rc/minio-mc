@@ -30,7 +30,7 @@ import (
 	"time"
 
 	"github.com/minio/cli"
-	"github.com/minio/mc/pkg/probe"
+	"github.com/stanford-rc/minio-mc/pkg/probe"
 )
 
 var headFlags = []cli.Flag{

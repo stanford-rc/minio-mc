@@ -1,4 +1,4 @@
-module github.com/minio/mc
+module github.com/stanford-rc/minio-mc
 
 go 1.24.0
 
@@ -303,3 +303,23 @@ require (
 	mvdan.cc/gofumpt v0.9.2 // indirect
 	mvdan.cc/unparam v0.0.0-20250301125049-0df0534333a4 // indirect
 )
+
+replace github.com/minio/cli => github.com/stanford-rc/minio-cli v1.24.2
+
+replace github.com/minio/colorjson => github.com/stanford-rc/minio-colorjson v1.0.8
+
+replace github.com/minio/crc64nvme => github.com/stanford-rc/minio-crc64nvme v1.0.1
+
+replace github.com/minio/filepath => github.com/stanford-rc/minio-filepath v1.0.0
+
+replace github.com/minio/madmin-go/v3 => github.com/stanford-rc/madmin-go/v3 v3.0.107-0.20250415152934-4b504b82db63
+
+replace github.com/minio/md5-simd => github.com/stanford-rc/minio-md5-simd v1.1.2
+
+replace github.com/minio/minio-go/v7 => github.com/stanford-rc/minio-go/v7 v7.0.90
+
+replace github.com/minio/mux => github.com/stanford-rc/minio-mux v1.9.0
+
+replace github.com/minio/pkg/v3 => github.com/stanford-rc/minio-pkg/v3 v3.1.0
+
+replace github.com/minio/selfupdate => github.com/stanford-rc/minio-selfupdate v0.6.0

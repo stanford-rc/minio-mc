@@ -20,7 +20,7 @@ package cmd
 import (
 	"sync"
 
-	"github.com/minio/mc/pkg/probe"
+	"github.com/stanford-rc/minio-mc/pkg/probe"
 	"github.com/minio/pkg/v3/quick"
 )
 
