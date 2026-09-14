@@ -1,3 +1,25 @@
+> ## Modified version
+>
+> **This is a modified version of `github.com/minio/mc`.** It is not MinIO, Inc. software, it is
+> not supported by MinIO, Inc., and it has not been reviewed or endorsed by them.
+>
+> Modified by The Board of Trustees of the Leland Stanford Junior University,
+> Stanford Research Computing, on **2026-02-25**. Forked from `github.com/minio/mc` at upstream
+> commit `77f82e18`, dated 2025-11-06. The change is the Go module path, rewritten across the tree so this fork and upstream cannot be confused in a build.
+>
+> Released under the **GNU Affero General Public License version 3**, the same
+> license as the upstream work; see `LICENSE`. Copyright in the unmodified portions
+> remains with MinIO, Inc. and the upstream contributors. MinIO(R) is a registered
+> trademark of MinIO, Inc., used here only to identify the work this fork derives
+> from.
+>
+> The complete corresponding source for this modified version is this repository.
+>
+> Everything below this line is upstream's documentation and describes the
+> upstream project.
+
+---
+
 # MinIO Client Quickstart Guide
 [![Slack](https://slack.min.io/slack?type=svg)](https://slack.min.io) [![Go Report Card](https://goreportcard.com/badge/minio/mc)](https://goreportcard.com/report/minio/mc) [![Docker Pulls](https://img.shields.io/docker/pulls/minio/mc.svg?maxAge=604800)](https://hub.docker.com/r/minio/mc/) [![license](https://img.shields.io/badge/license-AGPL%20V3-blue)](https://github.com/minio/mc/blob/master/LICENSE)
 
